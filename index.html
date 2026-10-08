@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ramayana – The Eternal Epic</title>
+  <meta name="description" content="Browse, search and listen to the Ramayana: Kandas, Sargas, verses and characters.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🪷</text></svg>">
+  <meta property="og:title" content="Ramayana – The Eternal Epic">
+  <meta property="og:description" content="Read, search and listen to all 17,925 verses of the Ramayana.">
+  <meta property="og:image" content="images/hero.jpg">
+  <meta name="theme-color" content="#7a1a1a">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Cormorant+Garamond:wght@400;500;600&family=Noto+Serif+Devanagari:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="bar"></div>
+  <header>
+    <a class="logo" href="#/">🪷 Ramayana</a>
+    <nav id="nav">
+      <a href="#/" data-p="">Home</a>
+      <a href="#/kandas" data-p="kandas">Kandas</a>
+      <a href="#/search" data-p="search">Search</a>
+      <a href="#/characters" data-p="characters">Characters</a>
+      <a href="#/bookmarks" data-p="bookmarks">★ Saved</a>
+      <a href="#/about" data-p="about">About</a>
+    </nav>
+    <div class="tools">
+      <input id="hq" placeholder="Search…  ( / )" aria-label="Search">
+      <button id="theme" title="Dark mode" aria-label="Toggle dark mode">◐</button>
+    </div>
+  </header>
+  <main id="app"><div class="spin" aria-label="Loading"></div></main>
+  <footer>
+    <p class="mantra">॥ श्रीराम जय राम जय जय राम ॥</p>
+    <p class="credit">Built by <a href="https://github.com/Praveenkumar99488">BYAGARI PRAVEEN KUMAR</a> • <a href="https://github.com/Praveenkumar99488/Ramayana">Source on GitHub</a></p>
+    <p>May the teachings of the Ramayana guide us always.</p>
+  </footer>
+  <button id="top" aria-label="Back to top">↑</button>
+  <div id="toast" role="status"></div>
+  <script src="script.js"></script>
+</body>
+</html>
